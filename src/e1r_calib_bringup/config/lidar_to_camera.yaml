@@ -1,0 +1,12 @@
+# T_camera_lidar from ros2_calib on bag calib_20261023_111329.
+# p_camera = R * p_lidar + t
+# The GUI button "Export Target Transform" writes the right-hand box.
+# That box stays empty because this bag has no TF between rslidar and camera.
+translation:
+  x: 0.0336
+  y: 0.0011
+  z: -0.0026
+rotation_matrix:
+  rows: 3
+  cols: 3
+  data: [0.07923565, -0.99647695, -0.02748455, 0.03773152, 0.03054945, -0.99882084, 0.99614158, 0.07810518, 0.04001920]

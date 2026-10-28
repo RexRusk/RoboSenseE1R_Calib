@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>e1r_calib_bringup</name>
+  <version>0.1.0</version>
+  <description>Launch and E1R config bridge around unmodified rslidar_sdk and ros2_calib.</description>
+  <maintainer email="dev@example.com">e1r_calib</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>rslidar_sdk</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>v4l2_camera</exec_depend>
+  <exec_depend>rosbag2_storage_mcap</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

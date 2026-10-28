@@ -1,0 +1,23 @@
+# plumb_bob intrinsics for 1024x576
+# inner corners 4x6, views 5, rms_px 0.3843
+# k3 is fixed at 0: the board does not reach the image edge, so k3 is not observable
+image_width: 1024
+image_height: 576
+camera_name: usb_camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [896.92498613, 0.0, 489.12525596, 0.0, 900.15383319, 327.80013387, 0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.01040255, 0.04889688, 0.01161041, -0.00645425, 0.00000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [896.92498613, 0.0, 489.12525596, 0.0, 0.0, 900.15383319, 327.80013387, 0.0, 0.0, 0.0, 1.0, 0.0]
