@@ -1,0 +1,12 @@
+build/
+install/
+log/
+.venv/
+bags/
+*.mcap
+**/__pycache__/
+*.pyc
+
+# Cloned by scripts/clone_third_party.sh. Not part of this repository.
+src/third_party/*
+!src/third_party/README.md
